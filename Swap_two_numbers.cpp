@@ -11,11 +11,12 @@ int main() {
   //   freopen("input.txt","r",stdin);
   //   freopen("output.txt","w",stdout);
   // #endif
-
+    
+    // t, x, y should be in cyclic order.
     ll x=2,y=3;
     ll t;
     t=x;
     x=y;
-    y=x;
+    y=t;
     cout<<x<<" "<<y;
 }
