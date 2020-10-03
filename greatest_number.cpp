@@ -15,7 +15,8 @@ int main() {
     ll n,i,j;
     n=10;
     ll a[]={1,2,3,100,5,6,7,8,9,10};
-    ll mx;
+    // Missing base value
+    ll mx = INT_MIN;
     for(i=1;i<=10;i++)
     {
         mx=max(mx,a[i]);
