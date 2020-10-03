@@ -17,7 +17,8 @@ int main() {
     ll a={{1,2,6},{5,6,8}};
     for(i=0;i<n;i++)
     {
+      // If you want to take transpose of the matrix then you should print a[j][i]. 
         for(j=0;j<m;j++)
-            cout<<a[i][j];
+            cout<<a[j][i];
     }
 }
